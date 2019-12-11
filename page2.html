@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Lbs to Kg</title>
+</head>
+<body>
+    
+    <h1>Pounds to Kilograms</h1>
+    <div class="menu1">
+        <a href="index.html">HOME</a>
+    </div>
+    <div>
+        <img src="images/image4.jpg" alt="imagenX" class="image_page">
+        <div class="parag_page">
+            <p>
+            Both pounds (lbs) and kilograms (kg) are used to measure weight or mass. Pounds are an imperial unit most often used in America, while kilograms are a metric unit commonly used in European countries. Note that 1 pound is equal to 0.454 kilograms and 1 kilogram is equal to 2.2046 pounds. There are multiple ways to easily convert between the two units.            </p>
+        </div>
+    </div><br>
+    <div>
+        <h4 style="text-align: center">Let's convert:</h4>
+        <form>
+            <label>Pound<br></label>
+                <input id="enterMiles" type="number" placeholder="Pounds" oninput="LbToKg(this.value)" onchange="LbToKg(this.value)"><br>
+             <p class="result_disPage"><span id="resultKg"></span></p> 
+            <br>
+            <label>Kilogram<br></label>
+                <input id="enterKilometers" type="number" placeholder="Kilograms" oninput="KgToLb(this.value)" onchange="KgToLb(this.value)">
+            <p class="result_disPage"><span id="resultLb"></span></p>
+        </form>
+        <br><br>
+    </div>
+    <div>
+        <h5 style="text-align: center">Pounds to Kilograms conversion table</h5>
+        <table>
+        <tr>
+            <th>Pounds (lb)</th>
+            <th>Kilograms (kg)</th>
+        </tr>
+        <tr>
+            <td>0.1 lb</td>
+            <td>0.16093 kg</td>
+        </tr>
+        <tr>
+            <td>1 lb</td>
+            <td>1.6093 kg</td>
+        </tr>
+        <tr>
+            <td>2 lb</td>
+            <td>3.2187 kg</td>
+        </tr>
+        <tr>
+            <td>3 lb</td>
+            <td>4.8280 kg</td>
+        </tr>
+        <tr>
+            <td>50 lb</td>
+            <td>80.4672 kg</td>
+        </tr>
+        <tr>
+            <td>80 lb</td>
+            <td>128.7475 kg</td>
+        </tr>
+        </table>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>

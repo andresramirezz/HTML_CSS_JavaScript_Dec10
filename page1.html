@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Mi to Km</title>
+</head>
+<body>
+
+    <h1>Miles to Kilometers</h1>
+    <div class="menu1">
+        <a href="index.html">HOME</a>
+    </div>
+    <div>
+        <img src="images/image2.jpg" alt="imagenX" class="image_page">
+        <div class="parag_page">
+            <p>
+            How many miles in 1 km? The answer is 0.62137119223733.
+            We assume you are converting between mile and kilometre.
+            The SI base unit for length is the metre.
+            1 metre is equal to 0.00062137119223733 miles, or 0.001 km.
+            </p>
+        </div>
+    </div><br>
+    <div class= "letsConvert_page">
+        <h4>Let's convert:</h4>
+        <form>
+            <label>Miles<br></label>
+                <input id="enterMiles" type="number" placeholder="Miles" oninput="MiToKm(this.value)" onchange="MiToKm(this.value)">
+             <p class="result_disPage"><span id="resultMiles"></span></p> 
+            <br>
+            <label>Kilometers<br></label>
+                <input id="enterKilometers" type="number" placeholder="Kilometers" oninput="KmToMi(this.value)" onchange="KmToMi(this.value)">
+            <p class="result_disPage"><span id="resultKm"></span></p>
+        </form>
+        <br>
+    </div>
+    <div>
+        <h5 style="text-align: center">Miles to kilometers conversion table</h5>
+        <table>
+        <tr>
+            <th>Miles (mi)</th>
+            <th>Kilometers (km)</th>
+        </tr>
+        <tr>
+            <td>0.1 mi</td>
+            <td>0.16093 km</td>
+        </tr>
+        <tr>
+            <td>1 mi</td>
+            <td>1.6093 km</td>
+        </tr>
+        <tr>
+            <td>2 mi</td>
+            <td>3.2187 km</td>
+        </tr>
+        <tr>
+            <td>3 mi</td>
+            <td>4.8280 km</td>
+        </tr>
+        <tr>
+            <td>50 mi</td>
+            <td>80.4672 km</td>
+        </tr>
+        <tr>
+            <td>80 mi</td>
+            <td>128.7475 km</td>
+        </tr>
+        </table>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+    background-color: #d3f4ff;
+    font-family: "Lucida Console", serif;
+}
+
+li  {
+    font-size: 13px;
+    color: #151965;
+    margin-left: 180px;
+    margin-right: 180px;
+
+    }
+
+.parag_home {
+    text-align: justify ;
+    color: #151965;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 20px;
+    
+    }
+
+#titulo {
+    color: #4a47a3;
+    margin-left: 5px;
+    text-align: center;
+    border: 3px solid #515585;
+}
+
+.menu1  {
+        width: 200px;
+        margin: 0 auto;
+        }
+
+.menu1 a {
+    background-color: #413c69;
+    color: whitesmoke;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    border-style: solid ;
+}
+
+.menu1 a:hover {
+    background-color: #f4b0c7;
+}
+
+.image_page {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 350px;
+        display: block;
+        }
+
+.parag_page {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+h4  {
+    text-align: center;
+}
+
+label  {
+            margin-left: 350px;
+            color: dimgrey;
+        }
+
+
+input {
+    width: 200px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid #dddddd;
+    
+}
+
+
+.result_disPage {
+            color: red;
+            font-size: 30px;
+            background: white;
+            font-family: monospace;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+                }
+
+table {
+    font-family: cursivesans-serif;
+    border-collapse: separate;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px;
+    background-color: #297ca0;
+    color: whitesmoke;
+    font-size: 18px;
+    }
+
+td  {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px;
+    background-color: #e9ea77;
+    color: #151965;
+}
